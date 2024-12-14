@@ -2,7 +2,7 @@
 
 <img src="https://github.com/user-attachments/assets/87beec4e-ef14-4d94-96db-a23d0a934921" width="30%">
 
-# Portfolio-Matematica-Thales-Rangel
+# Portfólio Matemática - Thales Rangel
 
 [![HTML](https://img.shields.io/badge/HTML-5-red)](https://thales-rangel.github.io/Thales-Rangel-Portifolio/)
 [![CSS](https://img.shields.io/badge/CSS-3-blue)](https://thales-rangel.github.io/Thales-Rangel-Portifolio/)
