@@ -1,27 +1,25 @@
-.indicador {
-    background-color: black;
-    border-radius: 5px;
-    color: white;
-    opacity: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 30%;
-    width: 10%;
-
-    position: sticky;
-    z-index: 1;
-}
-
 .gallery {
     width: 40%;
     position: relative;
     display: flex;
+    flex-flow: row;
     align-items: center;
     overflow: auto;
     scroll-snap-type: x mandatory;
+}
+
+.indicador {
+    opacity: 0;
+
+    width: 40%;
+
+    position: absolute;
+    left: 30%;
+    z-index: 1;
+
+    & img {
+        border-radius: 10px;
+    }
 }
 
 .gallery img {
@@ -35,6 +33,6 @@
 
 .gallery:hover {
     & .indicador {
-        opacity: 0.5;
+        opacity: 0.6;
     }
 }
