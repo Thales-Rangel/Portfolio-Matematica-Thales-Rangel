@@ -1,0 +1,40 @@
+.indicador {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    opacity: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30%;
+    width: 10%;
+
+    position: sticky;
+    z-index: 1;
+}
+
+.gallery {
+    width: 40%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.gallery img {
+    width: 100%;
+    position: sticky;
+    left: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    scroll-behavior: smooth;
+}
+
+.gallery:hover {
+    & .indicador {
+        opacity: 0.5;
+    }
+}
