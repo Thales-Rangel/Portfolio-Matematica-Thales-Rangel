@@ -1,0 +1,105 @@
+.personagens {
+    position: absolute;
+    z-index: 2;
+    /*border: 1px solid yellow;*/
+}
+
+#Batman {
+    right: 8%;
+    top: 706px;
+    width: 10%;
+}
+
+#Miranha {
+    width: 180px;
+    top: 50px;
+    left: 10%;
+}
+
+#Mario {
+    width: 200px;
+    top: 200px;
+    right: 10%;
+}
+
+#Sonic {
+    width: 140px;
+    top: 335px;
+    left: 30%;
+}
+
+#Controle {
+    width: 180px;
+    left: 43%;
+    top: 100px;
+}
+
+#Kleiton {
+    width: 225px;
+    top: 373px;
+    right: 30%;
+}
+
+#Mago-Implacavel {
+    width: 200px;
+
+    top: 1210px;
+    left: 9%;
+}
+
+#Senku {
+    width: 200px;
+
+    top: 500px;
+    right: 50%;
+}
+
+#Senku-sentado {
+    width: 125px;
+
+    top: 430px;
+    left: 17%;
+}
+
+#Naruto {
+    width: 150px;
+
+    bottom: 245px;
+    right: 10%;
+}
+
+#Ben-10 {
+    width: 250px;
+
+    top: 1680px;
+    right: 4%;
+}
+
+#Mine {
+    width: 190px;
+    bottom: 72px;
+    left: 50%;
+}
+
+#Miranha-1 {
+    width: 180px;
+
+    top: 1650px;
+    left: 9%;
+}
+
+#Tartarugas-Ninja {
+    width: 200px;
+
+    top: 584px;
+    right: 12%;
+}
+
+.background-main {
+    position: absolute;
+    z-index: -1;
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.15;
+}
